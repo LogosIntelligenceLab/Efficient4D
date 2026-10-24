@@ -1,5 +1,5 @@
 # Efficient4D: Fast Dynamic 3D Object Generation from a Single-view Video
-### [[Paper]](http://arxiv.org/abs/2401.08742) | [[Project]](https://fudan-zvg.github.io/Efficient4D/)
+### [[Paper]](http://arxiv.org/abs/2401.08742) | [[Project]](https://logosintelligencelab.github.io/Efficient4D/)
 
 > [**Efficient4D: Fast Dynamic 3D Object Generation from a Single-view Video**](),            
 > Zijie Pan, Zeyu Yang, [Xiatian Zhu](https://surrey-uplab.github.io/), [Li Zhang](https://lzrobots.github.io)  
@@ -13,7 +13,7 @@
 ## Image generation results
 
 
-https://github.com/fudan-zvg/Efficient4D/assets/84657631/26440964-5bff-4b1d-b240-4ba6b9e62e69
+https://github.com/LogosIntelligenceLab/Efficient4D/assets/84657631/26440964-5bff-4b1d-b240-4ba6b9e62e69
 
 
 ## Install
@@ -79,7 +79,7 @@ bash run.sh walking_white_faced_egret walking_white_faced_egret 4,5,6,7 16 0
 ```
 
 ### 4D reconstruction
-We have now released the 4D reconstruction part under the `generation branch` of [4DGS](https://github.com/fudan-zvg/4d-gaussian-splatting/tree/generation). The branch provides a general framework combining 4DGS and SDS loss, which supports taking multi-view images as input (e.g., this repo, [Diffusion^2](https://github.com/fudan-zvg/diffusion-square) and [SV4D](https://github.com/Stability-AI/generative-models)).
+We have now released the 4D reconstruction part under the `generation branch` of [4DGS](https://github.com/LogosIntelligenceLab/4d-gaussian-splatting/tree/generation). The branch provides a general framework combining 4DGS and SDS loss, which supports taking multi-view images as input (e.g., this repo, [Diffusion^2](https://github.com/LogosIntelligenceLab/diffusion-square) and [SV4D](https://github.com/Stability-AI/generative-models)).
 
 ## Acknowledgement
 
@@ -88,7 +88,7 @@ We have intensively borrow codes from the following repositories. Many thanks to
 - [Syncdreamer](https://github.com/liuyuan-pal/SyncDreamer)
 - [RIFE](https://github.com/hzwer/ECCV2022-RIFE)
 - [Consistent4D](https://github.com/yanqinJiang/Consistent4D)
-- [4DGS](https://github.com/fudan-zvg/4d-gaussian-splatting)
+- [4DGS](https://github.com/LogosIntelligenceLab/4d-gaussian-splatting)
 
 
 ## BibTeX
